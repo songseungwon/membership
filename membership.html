@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <form>
+        <input type="search" placeholder="회원번호" autofocus required>
+        <input type="submit" value="검색"><hr><br>
+        <fieldset>
+            <legend>로그인 정보</legend>
+            <input type="text" id="user_id" placeholder="아이디"><br>
+            <input type="password" id="user_pw" placeholder="비밀번호"><br>
+            <input type="submit" value="로그인">
+        </fieldset><br>
+        <fieldset>
+            <legend>회원 가입 정보</legend>
+            <input placeholder="이름" type="text" id="user_name"><br>
+            <input placeholder="연락처" type="tel" id="phone"><br>
+            <input placeholder="이메일" type="email" id="mail"><br>
+            <input placeholder="sns" type="url" id="sns"><br>
+            <label>시작일<input type="date" id="start"></label><br>
+            <label>종료일<input type="date" id="end"></label><br>
+            <label>회원카드(색)<input type="color" value="#00ff00"></label><br>
+            <input type="submit" value="회원가입">
+        </fieldset><br>
+        <fieldset>
+            <h3>수강 분야(다수 선택 가능)</h3>
+            <label><input type="radio" name="subject" value="pila">필라테스</label>
+            <label><input type="radio" name="subject" value="yoga">요가</label>
+            <label><input type="radio" name="subject" value="pt">헬스</label>
+        </fieldset>
+    </form>
+</body>
